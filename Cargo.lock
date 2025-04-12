@@ -8223,7 +8223,7 @@ dependencies = [
  "rand 0.8.5",
  "rbuilder",
  "redis",
- "reqwest 0.11.27",
+ "reqwest 0.12.9",
  "reth",
  "reth-db",
  "reth-payload-builder",

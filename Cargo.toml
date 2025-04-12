@@ -49,7 +49,7 @@ prost = "0.11"
 tokio-stream = { version = "0.1", features = ["net"] }
 futures = "0.3.28"
 tower = "0.4"
-reqwest = { version = "0.11.20", features = ["blocking"] }
+reqwest = { version = "0.12.9", features = ["blocking"] }
 secp256k1 = { version = "0.29" }
 url = "2.5.2"
 http = "0.2.9"
