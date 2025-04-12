@@ -8220,7 +8220,7 @@ dependencies = [
  "mockall",
  "prometheus",
  "prost",
- "rand 0.8.5",
+ "rand 0.9.0",
  "rbuilder",
  "redis",
  "reqwest 0.11.27",
