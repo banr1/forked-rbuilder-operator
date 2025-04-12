@@ -11,7 +11,7 @@ reth-payload-builder = { git = "https://github.com/paradigmxyz/reth", tag = "v1.
 
 alloy-primitives = { version = "0.8.20", default-features = false }
 alloy-provider = { version = "0.12.6", features = ["ipc", "pubsub"] }
-alloy-json-rpc = { version = "0.12.6" }
+alloy-json-rpc = { version = "0.13.0" }
 alloy-transport-http = { version = "0.12.6" }
 alloy-transport = { version = "0.12.6" }
 alloy-rpc-types-beacon = { version = "0.12.6", features = ["ssz"] }

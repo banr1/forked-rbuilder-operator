@@ -369,6 +369,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "alloy-json-rpc"
+version = "0.13.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bbcf26d02a72e23d5bc245425ea403c93ba17d254f20f9c23556a249c6c7e143"
+dependencies = [
+ "alloy-primitives 0.8.23",
+ "alloy-sol-types",
+ "serde",
+ "serde_json",
+ "thiserror 2.0.11",
+ "tracing",
+]
+
+[[package]]
 name = "alloy-network"
 version = "0.12.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -8192,7 +8206,7 @@ name = "rbuilder-operator"
 version = "0.1.0"
 dependencies = [
  "ahash",
- "alloy-json-rpc 0.12.6",
+ "alloy-json-rpc 0.13.0",
  "alloy-primitives 0.8.23",
  "alloy-provider",
  "alloy-rpc-client",
