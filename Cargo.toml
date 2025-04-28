@@ -41,7 +41,7 @@ clickhouse = { version = "0.12.2", features = ["time", "uuid", "native-tls"] }
 uuid = { version = "1.10.0", features = ["serde", "v4", "v5"] }
 mockall = "0.12.1"
 prometheus = "0.13.4"
-ctor = "0.2"
+ctor = "0.4"
 flume = "0.11.0"
 redis = "0.25.4"
 tonic = "0.8"
