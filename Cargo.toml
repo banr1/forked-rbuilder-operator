@@ -45,7 +45,7 @@ ctor = "0.2"
 flume = "0.11.0"
 redis = "0.25.4"
 tonic = "0.8"
-prost = "0.11"
+prost = "0.14"
 tokio-stream = { version = "0.1", features = ["net"] }
 futures = "0.3.28"
 tower = "0.4"
